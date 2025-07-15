@@ -37,21 +37,28 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 
 <img width="1026" height="738" alt="image" src="https://github.com/user-attachments/assets/8fc2876f-b5da-4e57-8e65-7a0505274b1b" />
 
+<br>
+
+##### Note: I have the ISO of windows server 2022 standard eval downloaded on the host machine. You can download yours from here: [{here: {https://www.microsoft.com/en-us/evalcenter/?msockid=37897b1716c866341c676e6517da674a}]
+
 - Right click on the demo-server and click on connect
 - When on the start menu, click and immediately press any key on your keyboard.
 - Follow the prompt to install the operating system.
 
 <img width="1506" height="910" alt="image" src="https://github.com/user-attachments/assets/0936f0db-dbbf-4695-a620-7e507ad05756" />
 
-Details of the current version:
+
+###### Details of the current version:
 
 <img width="658" height="393" alt="image" src="https://github.com/user-attachments/assets/99805ebf-51b8-43e7-bad4-374d62f93e95" />
 
-Apply the following network configuration on the Demo-server:
+
+###### Apply the following network configuration on the Demo-server:
 
 <img width="1100" height="630" alt="image" src="https://github.com/user-attachments/assets/06626fd9-80c2-4a71-b9be-9945eeabf1af" />
 
-### Convertion from server 2022 eval to Standard edition following the steps here {(https://learn.microsoft.com/en-us/windows-server/get-started/upgrade-conversion-options#windows-server-standard-or-datacenter)}
+
+##### Convertion from server 2022 eval to Standard edition following the steps here {(https://learn.microsoft.com/en-us/windows-server/get-started/upgrade-conversion-options#windows-server-standard-or-datacenter)}
 
 #### Notes from MS docs: 
 If your server is running an evaluation version of Windows Server Standard or Datacenter edition, you can convert it to an available retail version. Run the following commands in an elevated command prompt or PowerShell session.
