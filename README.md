@@ -34,17 +34,18 @@ New-NetNat –Name "NatNetwork" –InternalIPInterfaceAddressPrefix "192.168.0.0
 ```
 Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False 
 ```
+#### Creating a VM in hyper V
+I have the ISO & VHD of windows server 2022 standard eval downloaded on the host machine. You can download yours from [here](https://www.microsoft.com/en-us/evalcenter/?msockid=37897b1716c866341c676e6517da674a)
+
+#### Option 1: Creating with ISO file in summary
 
 <img width="1026" height="738" alt="image" src="https://github.com/user-attachments/assets/8fc2876f-b5da-4e57-8e65-7a0505274b1b" />
 
 <br>
 
-### PS: If you're creating a VM using .vhd instead of iso, follow the steps as seen in summary below:
+#### Option 2: If you're creating the VM using .vhd instead of iso, follow the steps similarly to the screenshot below:
 
 <img width="1046" height="697" alt="image" src="https://github.com/user-attachments/assets/1a2dcd91-57a9-4146-82f6-ca151450ef1f" />
-
-
-##### Note: I have the ISO & VHD of windows server 2022 standard eval downloaded on the host machine. You can download yours from [here](https://www.microsoft.com/en-us/evalcenter/?msockid=37897b1716c866341c676e6517da674a)
 
 - Right click on the demo-server and click on connect
 
