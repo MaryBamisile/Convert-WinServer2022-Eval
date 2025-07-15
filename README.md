@@ -111,10 +111,10 @@ DISM /online /Set-Edition:ServerStandard /ProductKey:ABCDE-12345-ABCDE-12345-ABC
 
 <img width="1168" height="914" alt="image" src="https://github.com/user-attachments/assets/ab8ec1d9-e6b6-4c62-a2c8-78ef3c050f5a" />
 
-#### Challenges faced
-- When I ran the command ``` slmgr /xpr ```, it was in notification mode.
+## Challenges faced:
+- When I ran the command ``` slmgr /xpr ```, I got an output displaying the VM is in notification mode.
 - I ran ```slmgr -rearm ``` and restarted the machine
-- Now, everything looks good for the license perspective:
+- Now, everything looks good with the license applied:
 
 <img width="583" height="393" alt="image" src="https://github.com/user-attachments/assets/7f31849a-d869-4935-bc67-a25f72b0b0aa" />
 
