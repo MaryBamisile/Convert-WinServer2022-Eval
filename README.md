@@ -39,14 +39,22 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 
 <br>
 
-##### Note: I have the ISO of windows server 2022 standard eval downloaded on the host machine. You can download yours from [here](https://www.microsoft.com/en-us/evalcenter/?msockid=37897b1716c866341c676e6517da674a)
+### PS: If you're creating a VM using .vhd instead of iso, follow the steps as seen in summary below:
+
+<img width="1046" height="697" alt="image" src="https://github.com/user-attachments/assets/1a2dcd91-57a9-4146-82f6-ca151450ef1f" />
+
+
+##### Note: I have the ISO & VHD of windows server 2022 standard eval downloaded on the host machine. You can download yours from [here](https://www.microsoft.com/en-us/evalcenter/?msockid=37897b1716c866341c676e6517da674a)
 
 - Right click on the demo-server and click on connect
+
+<img width="596" height="353" alt="image" src="https://github.com/user-attachments/assets/6fbec7fb-6f24-49f7-910a-0ac6a3ed0f4d" />
+
+
 - When on the start menu, click and immediately press any key on your keyboard.
 - Follow the prompt to install the operating system.
 
 <img width="1506" height="910" alt="image" src="https://github.com/user-attachments/assets/0936f0db-dbbf-4695-a620-7e507ad05756" />
-
 
 #### Details of the current version:
 
