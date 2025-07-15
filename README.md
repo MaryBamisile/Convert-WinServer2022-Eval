@@ -45,6 +45,9 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 Details of the current version
 <img width="658" height="393" alt="image" src="https://github.com/user-attachments/assets/99805ebf-51b8-43e7-bad4-374d62f93e95" />
 
+Apply the following network configuration on Demo-server
+
+<img width="1100" height="630" alt="image" src="https://github.com/user-attachments/assets/06626fd9-80c2-4a71-b9be-9945eeabf1af" />
 
 ### Convertion from server 2022 eval to Standard edition following the steps here {(https://learn.microsoft.com/en-us/windows-server/get-started/upgrade-conversion-options#windows-server-standard-or-datacenter)}
 
@@ -78,3 +81,11 @@ DISM /online /Set-Edition:<target edition> /ProductKey:<product key> /AcceptEula
 ```
 DISM /online /Set-Edition:ServerStandard /ProductKey:ABCDE-12345-ABCDE-12345-ABCDE /AcceptEula
 ```
+
+<img width="1086" height="472" alt="image" src="https://github.com/user-attachments/assets/dc09c98e-150c-4f45-88b4-36ce8b19eded" />
+
+You should be promted to restart
+
+Now, we can see:
+<img width="1168" height="914" alt="image" src="https://github.com/user-attachments/assets/ab8ec1d9-e6b6-4c62-a2c8-78ef3c050f5a" />
+
