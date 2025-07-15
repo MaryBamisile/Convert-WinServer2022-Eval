@@ -48,12 +48,12 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 <img width="1506" height="910" alt="image" src="https://github.com/user-attachments/assets/0936f0db-dbbf-4695-a620-7e507ad05756" />
 
 
-###### Details of the current version:
+#### Details of the current version:
 
 <img width="658" height="393" alt="image" src="https://github.com/user-attachments/assets/99805ebf-51b8-43e7-bad4-374d62f93e95" />
 
 
-###### Apply the following network configuration on the Demo-server:
+#### Apply the following network configuration on the Demo-server:
 
 <img width="1100" height="630" alt="image" src="https://github.com/user-attachments/assets/06626fd9-80c2-4a71-b9be-9945eeabf1af" />
 
